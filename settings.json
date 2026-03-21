@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "variable": "#abb2bf",
+            "variable.local": "#e06c75",
+            "parameter": "#d19a66",
+            "property": "#61afef",
+            "function": "#98c379"
+        }
+    },
+
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+
+    "files.autoSave": "onWindowChange",
+    "update.showReleaseNotes": false,
+    "workbench.editor.empty.hint": "hidden"
+}
