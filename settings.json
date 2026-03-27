@@ -1,10 +1,8 @@
 {
     "workbench.colorTheme": "One Dark Pro Darker",
-
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
@@ -16,7 +14,21 @@
             "function": "#98c379"
         }
     },
-
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Control flow keywords (return, if, else, etc.)",
+                "scope": [
+                    "keyword.control",
+                    "keyword.control.flow",
+                    "keyword.control.return"
+                ],
+                "settings": {
+                    "foreground": "#56b6c2"
+                }
+            }
+        ]
+    },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.quickSuggestions": {
@@ -25,7 +37,6 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
-
     "files.autoSave": "onWindowChange",
     "update.showReleaseNotes": false,
     "workbench.editor.empty.hint": "hidden"
