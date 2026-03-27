@@ -11,7 +11,9 @@
             "variable.local": "#e06c75",
             "parameter": "#d19a66",
             "property": "#61afef",
-            "function": "#98c379"
+            "function": "#98c379",
+            "method": "#d884b2",
+            "struct": "#DCDCAA"
         }
     },
     "editor.tokenColorCustomizations": {
